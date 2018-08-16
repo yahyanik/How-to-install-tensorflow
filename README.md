@@ -41,7 +41,7 @@ Use this for python3:
 ```
 $ sudo apt-get install python3-numpy python3-dev python3-pip python3-wheel
 ```
-I did not see the following anywhere, but I received errors for them, so I mention them: use pip3 for python3 pip command
+I did not see the following anywhere, but I received errors for them, so I mention them: use pip3 for python3:
 ```
 Pip install enum34
 Pip install mock
