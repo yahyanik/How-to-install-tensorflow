@@ -1,7 +1,7 @@
 # How to Install Tensorflow-GPU on Ubuntu (general edition)
 
 In this tutorial I will show you how to install tensorflow.
-After spending a week and testing every available option to install the tensorflow platform, I realized that none are complete or time less (in the sense that after the new version is released, you cannot use them and they are considered outdated). also some methods use not uptodate libraries. 
+After spending a week and testing every available option to install the tensorflow platform, I realized that none are complete or time less (in the sense that after the new version is released, you cannot use them and they are considered outdated). also some methods use not uptodate libraries. I used CUDA 9.2 with CuDNN 7.2 along NCCL 2.2 and tensorflow 1.10, but because I downloaded everything from their webpages, should be ok for later releases.
 
 ## Preparation
 I have tried to install tensorflow in a python Virtual Environment, but it seems that I cannot access it in there, but I have it outside of it anyways!! 
