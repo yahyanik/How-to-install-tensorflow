@@ -125,23 +125,41 @@ $ ./configure
 ```
 Asks you for information before compile, The order and number of questions may change, but they should be pretty forward to answer, if you don’t know an answer, press ENTER for default.
 My 1.10 version asked for (your answers may differ):
+
 Python path
+
 Python libraries path
+
 Jemalloc support :yes
+
 Google cloud support: no
+
 Hadoop support: no
+
 Amazon cloud support: no
+
 XLA support: no
+
 VERBS support: no
+
 OpenCL support: no
+
 CUDA support: yes
+
 CUDA version: 9.2
+
 CUDA path: /usr/local/cuda-9.2
+
 Cudnn version: 7.2
+
 Cudnn path: default 
+
 tensorRT support: no
+
 NCCL:1.3
+
 Android support: no
+
 ```
 $ bazel build --config=opt --config=cuda //tensorflow/tools/pip_package:build_pip_package
 $ bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
