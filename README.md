@@ -1,4 +1,4 @@
-#how to install tensorflow-GPU on Ubuntu
+# How to Install Tensorflow-GPU on Ubuntu
 
 In this tutorial I will show you how to install tensorflow.
 After spending a week and testing every available option to install the tensorflow platform, I realized that none are complete or time less (in the sense that after the new version is released, you cannot use them and they are considered outdated). 
@@ -54,6 +54,7 @@ $ sudo apt-get update
 $ sudo apt-get install nvidia-*** nvidia-modprobe
 ```
 Reboot your system and run “nvidia-smi” and you should see a table with the version of the driver at top.
+
 ## CUDA
 There are many methods to install CUDA, but I prefer to download the file from Nvidia and install it, to have the most updated version!
 Go to https://developer.nvidia.com/cuda-zone
@@ -69,7 +70,8 @@ $ sudo apt-get update
 $ sudo apt-get install cuda
 ```
 Even if “nvcc –version” does not work, it should be fine now and you have CUDA if everything goes ok.
-##CuDNN
+
+## CuDNN
 I have installed it using the .deb file and during tensorflow compile got an error and did it using the .tar and could not test to see if it is ok, so I did both and everyone was happy!!!
 Go to https://developer.nvidia.com/cudnn and using your account download the files for your CUDA. You should download :
 cuDNN v*** Library for Linux
