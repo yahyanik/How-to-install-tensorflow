@@ -98,6 +98,11 @@ $ cd  $HOME/cudnn_samples_v7/mnistCUDNN
 $make clean && make
 $ ./mnistCUDNN
 ```
+If there is a library issue, make sure that you add your lib64 to the PATH:
+```
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
+```
+
 If you see: “Test passed!” at the end you have it up and going.
 TensorRT and NCCL are also available for installation and their documentation is valid in Nvidia website.
 ## installing Bazel
