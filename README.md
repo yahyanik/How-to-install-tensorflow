@@ -102,11 +102,9 @@ If there is a library issue, make sure that you add your lib64 to the PATH:
 ```
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
 ```
-or add this line to the /etc/environment file:
+or look at the following first answer for the permanent change:
+https://stackoverflow.com/questions/13428910/how-to-set-the-environmental-variable-ld-library-path-in-linux
 
-```
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
-```
 If you see: “Test passed!” at the end you have it up and going.
 TensorRT and NCCL are also available for installation and their documentation is valid in Nvidia website.
 ## installing Bazel
