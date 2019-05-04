@@ -105,7 +105,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
 or add this line to the /etc/environment file:
 
 ```
-$LD_LIBRARY_PATH:/usr/local/cuda/lib64
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
 ```
 If you see: “Test passed!” at the end you have it up and going.
 TensorRT and NCCL are also available for installation and their documentation is valid in Nvidia website.
